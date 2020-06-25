@@ -49,16 +49,16 @@ public class arbol {
 	
 	void crecer() {
 
-		System.out.println("Crece");
+		System.out.println("Crece diariamente");
 	}
 
 	void crearHojas() {
 
-		System.out.println("Crea hojas");
+		System.out.println("Crea hojas para oxigenarnos");
 	}
 
 	void fotosintesis() {
 
-		System.out.println("fotosintesis");
+		System.out.println("Captan dióxido de carbono y expulsar oxígeno a lo largo del día");
 	}
 }

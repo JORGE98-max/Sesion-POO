@@ -3,6 +3,9 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
+		
+		// ARBOL
+		System.out.println("EJERCICIO 1 - ÁRBOL");
 		arbol tree = new arbol();
 		
 		tree.setCantidadHojas(800);
@@ -20,6 +23,25 @@ public class Principal {
 		tree.crearHojas();
 		tree.crecer();
 		tree.fotosintesis();
+		
+		// HUMANO
+		
+		System.out.println("EJERCICIO 2 - HUMANO");
+		
+		humano Myhuman = new humano();
+		System.out.println("Soy humano");
+		
+		Myhuman.setAltura(1.86);
+		System.out.println(Myhuman.getAltura()+ " m ");
+		Myhuman.setEdad(48);
+		System.out.println(Myhuman.getEdad()+ " a\u00f1os");
+		
+		System.out.println(Myhuman.genero);
+		System.out.println(Myhuman.caracter);
+		
+		Myhuman.hablar();
+		Myhuman.correr();
+		Myhuman.comer();
 
 	}
 
